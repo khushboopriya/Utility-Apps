@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel ="stylesheet" href="style-navbar.css">
+<script defer src="./urlencode.js"></script>
+<title>Utility Apps</title>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Utility Apps</a>
+  <a href="#news">FAQs</a>
+  <div class="dropdown">
+    <button class="dropbtn">Encoder/Decoder
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">URL Encoder</a>
+      <a href="#">URL Decoder</a>
+      <a href="#">Base-64 Encoder</a>
+      <a href="#">Base-64 Decoder</a>
+    </div>
+  </div> 
+
+  <div class="dropdown">
+    <button class="dropbtn">Hash Generators
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">MD5 Hash Generators</a>
+      <a href="#">SHA1 Hash Generators</a>
+      <a href="#">SHA256 Hash Generators</a>
+      <a href="#">SHA512 Hash Generators</a>
+    </div>
+  </div> 
+</div>
+
+<section class="heading-main">
+    <h1 class="heading-para">URL Encoder</h1>
+    <main class="textbox-and-buttons">
+
+        <textarea class="txt1" type="text" id="input" placeholder="Enter the text that you wish to encode."  rows="15" cols="60"></textarea>
+        <textarea  class="txt2" type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
+        <br>
+        <br>
+        <input  class="bt1" type="button" id="encode-button" value= "Encode url">
+
+        <hr>
+
+    </main>
+    
+</section>    
+
+</body>
+</html>
