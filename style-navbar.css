@@ -3,10 +3,10 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(https://images.unsplash.com/photo-1472555753081-650dbef985c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
   }
   
   .navbar {
@@ -76,22 +76,27 @@ body {
   }
 
 
-  /* NEW */
+
+ /* <!-- NAV BAR STYLING ENDS HERE-->  */
+
+/*  
+ FOR HEEADING STYLING THIS ONE */
 
 .heading-para{
   text-align: center;
   /* font-weight: 600;
   font-size: larger; */
-  font-family: cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(2, 14, 27);
   text-shadow: rgb(97, 1, 1);
 }
 
-.txt1{
+/* .txt1{
   position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%,-50%);
+    background-color: aquamarine;
 }
 
 .txt2{
@@ -106,4 +111,111 @@ body {
     top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
+} 
+*/
+
+/* BUTTONS AND IP OP STYLING STARTS */
+
+.textbox-and-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
+
+.text-button-container{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  height: 400px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #2F4F4F;
+  
+}
+
+.txt1,
+.txt2{
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #2F4F4F;
+}
+
+.buttons{
+  margin: 30px 300px 10px 60px;
+  display: flex;
+  justify-content: center;
+  width: 870px;
+  float: right;
+}
+
+
+.bt1{
+  width:20%;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.urlContainer{
+  margin-top: 20px;
+  width: 1100px;
+  height: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+/* ......from here styling of down box faq one........ */
+
+.urlEncodingSection {
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #008B8B;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #2F4F4F;
+  display: block;
+  padding: 15px;
+  margin-left: 19%;
+
+}
+
+.urlEncodingSection p {
+  color: #2F4F4F;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.urlEncodingSection .title {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 800;
+  color: #2F4F4F;
+  margin-top: 20px;
+}
+
+.urlEncodingSection .subTitle {
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 800;
+  color: #2F4F4F;
+}
+
+/* .....URL FAQ PART STYLING ENDS HERE.... */
