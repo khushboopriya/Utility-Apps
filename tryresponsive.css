@@ -121,7 +121,7 @@ position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   width:100vw;
 }
 
@@ -129,7 +129,7 @@ position: absolute;
 .urlContainer{
 /* margin-top: 2vh; */
 width: 90vw;
-height: 80vh;
+height: 70vh;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap; /* so that both rows come down one another and dont come in one row   */
@@ -167,11 +167,15 @@ justify-content: space-evenly;
 }
 
 .buttons{
-margin: 30px 300px 10px 60px;
+/* margin: 30px 300px 10px 60px; */
+margin-top: 5vh;
 display: flex;
 justify-content: center;
-width: 870px;
+align-items: center;
+width: 70vw;
+height: 10vh;
 float: right;
+background-color: chartreuse;
 }
 
 
@@ -194,7 +198,11 @@ font-family: Tahoma;
 font-size: 1.2em;
 }
 
-
+@media screen and (max-width: 980px){
+  .bt1{
+    width: 40vw;
+  }
+}
 
 ::placeholder {
 color: rgba(177, 184, 175, 0.89);
