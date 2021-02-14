@@ -6,14 +6,11 @@ body {
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover;
-
-  
   /* height: 100vh; */
 }
 
 .navbar {
   overflow: hidden;
-  width: fit-content;
   background-color: #678;
   font-size: 16px;
   font-weight: 700
@@ -119,95 +116,77 @@ position: absolute;
 
 /* BUTTONS AND IP OP STYLING STARTS */
 
+.like-body{
+  background-color: rgb(17, 13, 13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width:100vw;
+}
+
 
 .urlContainer{
-margin-top: 3%;
-margin-left: 11%;
-margin-right: 10%;
-
-align-self: center;
+/* margin-top: 2vh; */
+width: 90vw;
+height: 80vh;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap; /* so that both rows come down one another and dont come in one row   */
 justify-content: center;
-background-color: brown; /*uncomment this to findout what space is this container taking because of width and height fixed to some dimensions */
+align-items: center;
+ background-color: brown; /*uncomment this to findout what space is this container taking because of width and height fixed to some dimensions */
 
 }
 
 
 
 .text-button-container{
-
-width: 300px;
-
-margin-top: 4%;
-
-
-margin-right: 5%;
-
+/* position: relative;
+margin-top: 20px;
+margin-left: 10%;
+margin-right: 15%; */
 display: flex;
-
 flex-direction: column;
-
 justify-content: center;
-
+width: 70vw;
+height: 60vh;
+/* align-items: center; */
 background-color: #F5F5F5;
-
 border-radius: 15px;
-
 box-shadow: 3px 3px 3px 3px #2F4F4F;
-}
+margin-top: -14vh;
 
-.text-button-container {
-  width: 300px;
-  margin-top: 4%;
-  margin-right: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #F5F5F5;
-  border-radius: 15px;
-  box-shadow: 3px 3px 3px 3px #2f4f4f;
 }
-
 
 
 .textbox-and-buttons{
 display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 3%;
-width: 30x;
+flex-direction: row;
+justify-content: space-evenly;
 }
 
 .buttons{
 margin: 30px 300px 10px 60px;
 display: flex;
 justify-content: center;
-width: 180px;
-float: center;
-float: center;
+width: 870px;
+float: right;
 }
 
 
 
 .txt1,
 .txt2{
-width: 250px;
-margin-top: 5%;
+border-radius: 15px;
 box-shadow: 3px 3px 3px 3px #2F4F4F;
 }
 
 
 
 
-
-
 .bt1{
-width: 250px;
-margin-left: 3%;
-margin-right: 6%;
+width:20%;
 height: 40px;
 border-radius: 10px;
 font-weight: bolder;
@@ -269,3 +248,4 @@ color: #2F4F4F;
 }
 
 /* .....URL FAQ PART STYLING ENDS HERE.... */
+
