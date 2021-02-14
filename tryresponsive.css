@@ -202,6 +202,32 @@ font-size: 1.2em;
   .bt1{
     width: 40vw;
   }
+
+  .text-button-container{
+    height: 70vh;
+    margin-top: -4vh;
+  }
+  .textbox-and-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+    .txt1,
+    .txt2{
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #2F4F4F;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    }
+    .buttons{
+      margin-top: 3vh;
+    }
+
+
+
+
 }
 
 ::placeholder {
