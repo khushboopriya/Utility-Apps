@@ -210,6 +210,7 @@ font-size: 1.2em;
   .textbox-and-buttons{
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     justify-content: space-evenly;
     }
 
@@ -225,7 +226,7 @@ font-size: 1.2em;
       margin-top: 4vh;
     }
 
-
+    
 
 
 }
@@ -238,9 +239,34 @@ font-size: 1.2em;
 
 /* ......from here styling of down box faq one........ */
 
+.faq-section-body{
+
+  background-color: rgb(194, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  width:100vw;
+
+}
+
+.faq-section-background{
+
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; so that both rows come down one another and dont come in one row   */
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 17, 17); 
+
+}
+
+
 .urlEncodingSection {
-width: 1000px;
-height: 650px;
+width: 80vw;
+height: 50vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -250,9 +276,12 @@ border-radius: 15px;
 box-shadow: 3px 3px 3px 3px #2F4F4F;
 display: block;
 padding: 15px;
-margin-left: 19%;
+margin-top: -14vh;
+/* margin-left: 19%; */
 
 }
+
+
 
 .urlEncodingSection p {
 color: #2F4F4F;
@@ -283,3 +312,22 @@ color: #2F4F4F;
 
 /* .....URL FAQ PART STYLING ENDS HERE.... */
 
+@media screen and (max-width: 980px){
+
+.urlEncodingSection {
+  width: 80vw;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #008B8B;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #2F4F4F;
+  display: block;
+  padding: 15px;
+  margin-top: 35vh;
+  /* margin-left: 19%; */
+  
+  }
+}
