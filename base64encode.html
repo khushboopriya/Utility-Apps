@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel ="stylesheet" href="style-navbar.css">
+<link rel ="stylesheet" href="tryresponsive.css">
 <script defer src="./base64encode.js"></script>
 <title>Utility Apps</title>
 </head>
@@ -20,7 +20,7 @@
       <a href="index.html">URL Encoder</a>
       <a href="urldecoder.html">URL Decoder</a>
       <a href="#">Base-64 Encoder</a>
-      <a href="urldecoder.html">Base-64 Decoder</a>
+      <a href="base64decode.html">Base-64 Decoder</a>
     </div>
   </div> 
 
@@ -37,21 +37,30 @@
   </div> 
 </div>
 
-<section class="heading-main">
-    <h1 class="heading-para">Base64 Encoder</h1>
-    <main class="textbox-and-buttons">
+<h1 class="heading-para">Base64 Encoder</h1>
 
-        <textarea class="txt1" type="text" id="input" placeholder="Enter the text that you wish to encode."  rows="15" cols="60"></textarea>
-        <textarea  class="txt2" type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
-        <br>
-        <br>
-        <input  class="bt1" type="button" id="encode-button" value= "Encode">
+<div class="like-body">
 
-        <hr>
+  <div class="urlContainer">
 
-    </main>
-    
-</section>    
+    <section class="heading-main" >
+      
+      <div class="text-button-container">
+        <div class="textbox-and-buttons">
+          <textarea class="txt1" type="text" id="input" placeholder="Enter the text that you wish to encode."  rows="15" cols="60"></textarea>
+          <textarea  class="txt2" type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
+        </div>
+
+        <div class="buttons">
+          <input  class="bt1" type="button" id="encode-button" value= "Encode">
+        </div>
+
+      </div>
+        
+    </section>   
+  </div>
+
+</div>  
 
 </body>
 </html>

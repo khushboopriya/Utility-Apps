@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel ="stylesheet" href="style-navbar.css">
+<link rel ="stylesheet" href="tryresponsive.css">
 <script defer src="./base64decode.js"></script>
 <title>Utility Apps</title>
 </head>
@@ -37,21 +37,30 @@
   </div> 
 </div>
 
-<section class="heading-main">
-    <h1 class="heading-para">Base64 Decoder</h1>
-    <main class="textbox-and-buttons">
+<h1 class="heading-para">Base64 Decoder</h1>
 
+<div class="like-body">
+
+  <div class="urlContainer">
+
+    <section class="heading-main" >
+      
+      <div class="text-button-container">
+        <div class="textbox-and-buttons">
         <textarea class="txt1" type="text" id="input" placeholder="Enter the text that you wish to encode."  rows="15" cols="60"></textarea>
         <textarea  class="txt2" type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
-        <br>
-        <br>
+      </div>
+
+      <div class="buttons">
         <input  class="bt1" type="button" id="decode-button" value= "Decode">
+      </div>
 
-        <hr>
+    </div>
+      
+  </section>   
+</div>
 
-    </main>
-    
-</section>    
+</div>     
 
 </body>
 </html>
