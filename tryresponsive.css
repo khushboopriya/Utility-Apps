@@ -204,7 +204,7 @@ font-size: 1.2em;
   }
 
   .text-button-container{
-    height: 70vh;
+    height: 75vh;
     margin-top: -4vh;
   }
   .textbox-and-buttons{
@@ -266,7 +266,7 @@ font-size: 1.2em;
 
 .urlEncodingSection {
 width: 80vw;
-height: 50vh;
+height: 97vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -328,6 +328,7 @@ color: #2F4F4F;
   padding: 15px;
   margin-top: 35vh;
   /* margin-left: 19%; */
+  margin-bottom: 5vh;
   
   }
 }
