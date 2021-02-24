@@ -91,33 +91,10 @@ color: rgb(2, 14, 27);
 
 }
 
-/* .txt1{
-position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%,-50%);
-  background-color: aquamarine;
-}
 
-.txt2{
-position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%,-50%);
-}
-
-.bt1{
-position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-} 
-*/
-
-/* BUTTONS AND IP OP STYLING STARTS */
 
 .like-body{
-  background-color: rgb(17, 13, 13);
+  /* background-color: rgb(17, 13, 13); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,7 +112,7 @@ flex-direction: row;
 flex-wrap: wrap; /* so that both rows come down one another and dont come in one row   */
 justify-content: center;
 align-items: center;
- background-color: brown; /*uncomment this to findout what space is this container taking because of width and height fixed to some dimensions */
+ /* background-color: brown; uncomment this to findout what space is this container taking because of width and height fixed to some dimensions */
 
 }
 
@@ -175,7 +152,7 @@ align-items: center;
 width: 70vw;
 height: 10vh;
 float: right;
-background-color: chartreuse;
+/* background-color: chartreuse; */
 }
 
 
@@ -198,38 +175,6 @@ font-family: Tahoma;
 font-size: 1.2em;
 }
 
-@media screen and (max-width: 980px){
-  .bt1{
-    width: 40vw;
-  }
-
-  .text-button-container{
-    height: 75vh;
-    margin-top: -4vh;
-  }
-  .textbox-and-buttons{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: space-evenly;
-    }
-
-    .txt1,
-    .txt2{
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px 3px #2F4F4F;
-    margin-top: 2vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    }
-    .buttons{
-      margin-top: 2vh;
-    }
-
-    
-
-
-}
 
 ::placeholder {
 color: rgba(177, 184, 175, 0.89);
@@ -237,98 +182,69 @@ font-size: 1.2em;
 }
 
 
-/* ......from here styling of down box faq one........ */
 
-.faq-section-body{
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
-  background-color: rgb(194, 24, 24);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120vh;
-  width:100vw;
-
-}
-
-.faq-section-background{
-
-  width: 90vw;
-  height: 100vh;
-  display: flex;
-  /* flex-direction: row;
-  flex-wrap: wrap; so that both rows come down one another and dont come in one row   */
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(19, 17, 17); 
-
-}
+  .textbox-and-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 
 
-.urlEncodingSection {
-width: 80vw;
-height: 97vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-border: 2px solid #008B8B;
-background-color: #F5F5F5;
-border-radius: 15px;
-box-shadow: 3px 3px 3px 3px #2F4F4F;
-display: block;
-padding: 15px;
-margin-top: -14vh;
-/* margin-left: 19%; */
+    .text-button-container{
+      /* position: relative;
+      margin-top: 20px;
+      margin-left: 10%;
+      margin-right: 15%; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80vw;
+      height: 60vh;
+      /* align-items: center; */
+      background-color: #F5F5F5;
+      border-radius: 15px;
+      box-shadow: 3px 3px 3px 3px #2F4F4F;
+      margin-top: -14vh;
+      
+      
+      }
+      
+      
+      .textbox-and-buttons{
+        width: 70vw;
+        height: 60vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 2vh;
+      }
 
-}
+    
+    .txt1,
+    .txt2{
+      width: 60vw;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #2F4F4F;
+    }
 
 
 
-.urlEncodingSection p {
-color: #2F4F4F;
-font-weight: 600;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 10px;
-}
 
-.urlEncodingSection .title {
-position: relative;
-text-align: center;
-font-size: 30px;
-font-family: 'Poppins' sans-serif;
-font-weight: 800;
-color: #2F4F4F;
-margin-top: 20px;
-}
+    .bt1{
+    width:40vw;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Tahoma;
+    font-size: 1.2em;
+    }
 
-.urlEncodingSection .subTitle {
-font-size: 20px;
-padding: 5px;
-font-family: 'Poppins' sans-serif;
-font-weight: 800;
-color: #2F4F4F;
-}
 
-/* .....URL FAQ PART STYLING ENDS HERE.... */
-
-@media screen and (max-width: 980px){
-
-.urlEncodingSection {
-  width: 80vw;
-  height: 150vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid #008B8B;
-  background-color: #F5F5F5;
-  border-radius: 15px;
-  box-shadow: 3px 3px 3px 3px #2F4F4F;
-  display: block;
-  padding: 15px;
-  margin-top: 35vh;
-  /* margin-left: 19%; */
-  margin-bottom: 5vh;
-  
-  }
 }
